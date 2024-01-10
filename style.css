@@ -1,0 +1,83 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
+body {
+    background-color: #8138C0;
+}
+
+#all {
+    width: 17.28vw;
+    height: auto;
+    margin: 11.35vh auto;
+    color: #ffffff;
+}
+
+#all p {
+    font-size: 40px;
+    text-align: center;
+}
+
+#all #calculator {
+    width: 16.4vw;
+    height: 50.44vh;
+    background-color: #000000;
+}
+
+#all #calculator td {
+    font-size: 25px;
+}
+
+#all #calculator #answerScreen {
+    height:  8.41vh;
+}
+
+#all #calculator #answer {
+    text-align: right;
+}
+
+
+#all #calculator button {
+    width: 4.1vw;
+    height: 8.41vh;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#all #calculator button:hover {
+    background-color: #ffffff;
+}
+
+#all #calculator #allClear {
+    background-color: #E10150;
+}
+
+#all #calculator #allClear button {
+    width: 8.2vw;
+}
+
+#all #calculator .operations {
+    background-color: #8B8B8B;
+}
+
+#all #calculator .numbers {
+    background-color: #FFA602;
+}
+
+#all #calculator #zero {
+    background-color: #FFA602;
+}
+
+#all #calculator #zero button {
+    width: 8.2vw;
+}
+
+#all #calculator #equal {
+    background-color: #0283B5;
+}
+
+#all #calculator #equal button {
+    height: 16.8vh;
+}
