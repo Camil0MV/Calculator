@@ -46,8 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
         updateResult();
     }
 
-    function handleDecimalClick() {
-        if (calculatorState.currentNumber === "0") {
+    function handleDecimalPoint() {
+        if (calculatorState.currentNumber === null) {
             return
         } else {
             calculatorState.currentNumber += ".";
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
     eight.addEventListener('click', () => handleNumberClick("8"));
     nine.addEventListener('click', () => handleNumberClick("9"));
     
-    decimal.addEventListener('click', () => handleDecimalClick("."));
+    decimal.addEventListener('click', () => handleDecimalPoint("."));
 
     sum.addEventListener('click', () => handleOperatorClick('+'));
     subtraction.addEventListener('click', () => handleOperatorClick('-'));
